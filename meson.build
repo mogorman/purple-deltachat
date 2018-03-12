@@ -3,8 +3,8 @@ project(
   license: 'GPLv3'
 )
 
-libpurple = dependency('libpurple')
-glib = dependency('glib')
+libpurple = dependency('pidgin')
+glib = dependency('glib-2.0')
 
 subdir('src')
 
